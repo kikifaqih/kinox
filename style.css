@@ -1,0 +1,210 @@
+*,html {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png);
+}
+
+@import url(https://fonts.google.com/specimen/Rubik+Dirt);
+
+.container {
+    width: 1100px;
+    height: auto;
+    background-color: #E5DCC3;
+    margin: auto;
+    box-shadow: 3px 3px #AAA492;
+}
+
+
+.judul-div {
+    background-color: #AAA492;
+    border-bottom: #9A9483 solid 5px;
+
+}
+
+
+.judul {
+    font: 16/28px;
+    font-family: 'Rubik Dirt', cursive;
+    padding: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+.navbar {
+    padding: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    margin-left: 20px;
+    
+    color: whitesmoke;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar #beranda {
+    border-right: solid 2px #614124;
+    padding-right: 9px;
+}
+
+.navbar #profil {
+    border-right: solid 2px #614124;
+    padding-right: 9px;
+}
+
+.navbar #tentang {
+    border-right: solid 2px #614124;
+    padding-right: 9px;
+}
+
+
+.konten {
+    display: flex;
+    margin-top:90px ;
+    margin-bottom: 100vh;
+}
+
+#konten-profil {
+    margin-bottom: 100vh;
+}
+
+
+.teman1 {
+    width: 180px;
+    height: 200px;
+    background-color: 73777B;
+    margin-top: 50px;
+    margin-left: 120px;
+    box-shadow: 2px 2px 2px black;
+    background-color: #EFEAD8;
+    
+}
+
+.dasril-text {
+    font-size: 20px;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+}
+
+#ig-dasril {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+ #tentang-dasril {
+    text-decoration: none;
+    margin-top: 10px;
+    display: flex;
+    color: black;
+}
+
+#dasril-picture {
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 90px;
+    height: 90px;
+}
+
+
+.teman2 {
+    width: 180px;
+    height: 200px;
+    background-color: 73777B;
+    margin-top: 50px;
+    margin-left: 120px;
+    box-shadow: 2px 2px 2px black;
+    background-color: #EFEAD8;
+}
+
+.jubair-text {
+    font-size: 20px;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+}
+
+#ig-jubair {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+#tentang-jubair {
+    text-decoration: none;
+    margin-top: 10px;
+    display: flex;
+    color: black;
+}
+
+#jubair-picture {
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 90px;
+    height: 90px;
+}
+
+.teman3 {
+    width: 180px;
+    height: 200px;
+    background-color: 73777B;
+    margin-top: 50px;
+    margin-left: 120px;
+    box-shadow: 2px 2px 2px black;
+    background-color: #EFEAD8;
+}
+
+.syafiq-text {
+    font-size: 20px;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+}
+
+#ig-syafiq {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+#tentang-syafiq {
+    text-decoration: none;
+    margin-top: 10px;
+    display: flex;
+    color: black;
+}
+
+#syafiq-picture {
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 90px;
+    height: 90px;
+}
+
+
+.footer {
+    background-color: #333;
+    
+}
+
+.copyright  {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#beranda:hover {
+    color: #614124;
+}
+
+#profil:hover {
+    color: #614124;
+}
+
+#tentang:hover {
+    color: #614124;
+}
