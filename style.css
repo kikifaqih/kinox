@@ -65,7 +65,7 @@ body {
 
 
 .konten {
-    display: flex;
+    display: block;
     margin-top:90px ;
     margin-bottom: 100vh;
 }
